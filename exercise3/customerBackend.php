@@ -25,19 +25,19 @@
                 <td>ACRONYM x Nike Blazer Low "Black"</td>
                 <td><?php echo $i1q;?></td>
                 <td>$100</td>
-                <td>$<?php echo $i1q*150000;?></td>
+                <td>$<?php echo $i1q*100;?></td>
             </tr>
             <tr>
                 <td>Nike Air Max BW "Cream"</td>
                 <td><?php echo $i2q;?></td>
                 <td>$150</td>
-                <td>$<?php echo $i2q*230000;?></td>
+                <td>$<?php echo $i2q*150;?></td>
             </tr>
             <tr>
                 <td>G DLP x New Balance 327 "Sabará"</td>
                 <td><?php echo $i3q;?></td>
                 <td>$800</td>
-                <td>$<?php echo $i3q*4500000;?></td>
+                <td>$<?php echo $i3q*800;?></td>
             </tr>
             <tr>
                 <td>Shipping</td>

@@ -1,0 +1,37 @@
+input, button {
+    border: 2px rgba(174, 142, 142, 0.619) solid;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid rgba(174, 142, 142, 0.619);
+}
+
+body {
+    background-color: rgb(241, 220, 194);
+}
+
+table {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 3px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+tr.header {
+    font-size: larger;
+    font-weight: bold;
+    background-color: brown;
+}
+
+td {
+    border: 2px solid gray;
+}
+
+td:first-child {
+    font-weight: bold;
+}

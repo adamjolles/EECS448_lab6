@@ -14,8 +14,8 @@ body {
 
 table {
     background-color: white;
-    border: 2px solid gray;
-    padding: 3px;
+    border: 3px solid gray;
+    padding: 2px;
 }
 
 tr:nth-child(odd) {
@@ -29,7 +29,7 @@ tr.header {
 }
 
 td {
-    border: 2px solid gray;
+    border: 3px solid gray;
 }
 
 td:first-child {

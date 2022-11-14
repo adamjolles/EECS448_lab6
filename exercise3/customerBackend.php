@@ -6,13 +6,13 @@
         <?php
             $user = $_POST["user"];
             $pass = $_POST["pass"];
-            $i1q = $_POST["i1q"];
-            $i2q = $_POST["i2q"];
-            $i3q = $_POST["i3q"];
+            $item1 = $_POST["item1"];
+            $item2 = $_POST["item2"];
+            $item3 = $_POST["item3"];
             $shipping = $_POST["shipping"];
-            $total = $i1q*100+$i2q*150+$i3q*800;
+            $total = $item1*100+$item2*150+$item3*800;
             echo "<h1>Welcome ".$user."!</h1>";
-            echo "<p>You logged in with password: ".$pass."</p>";
+            echo "<p>Password: ".$pass."</p>";
         ?>
         <table>
             <tr class="header">
@@ -23,21 +23,21 @@
             </tr>
             <tr>
                 <td>ACRONYM x Nike Blazer Low "Black"</td>
-                <td><?php echo $i1q;?></td>
+                <td><?php echo $item1;?></td>
                 <td>$100</td>
-                <td>$<?php echo $i1q*100;?></td>
+                <td>$<?php echo $item1*100;?></td>
             </tr>
             <tr>
                 <td>Nike Air Max BW "Cream"</td>
-                <td><?php echo $i2q;?></td>
+                <td><?php echo $item2;?></td>
                 <td>$150</td>
-                <td>$<?php echo $i2q*150;?></td>
+                <td>$<?php echo $item2*150;?></td>
             </tr>
             <tr>
                 <td>G DLP x New Balance 327 "Sabará"</td>
-                <td><?php echo $i3q;?></td>
+                <td><?php echo $item3;?></td>
                 <td>$800</td>
-                <td>$<?php echo $i3q*800;?></td>
+                <td>$<?php echo $item3*800;?></td>
             </tr>
             <tr>
                 <td>Shipping</td>
